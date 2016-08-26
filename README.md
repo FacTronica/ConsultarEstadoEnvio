@@ -11,3 +11,6 @@ c:\curl\curl.exe --form "input_consulta_dte=@c:\curl\datos_consulta_dte.txt" htt
 
 3.-Recuperar la Respuesta del SII
 c:\curl\curl.exe -o c:\curl\ESTADOENVIODTE_133477322_TRACKID_1453694548.xml http://www.factronica.cl/factronica_webservice_servidor/buzon_consultadte/salida/ESTADOENVIODTE_133477322_TRACKID_1453694548.xml
+
+<br>Link al Manual del SII - WebService Consulta Estado de un Envío
+<br>http://www.sii.cl/factura_electronica/factura_mercado/estado_envio.pdf
