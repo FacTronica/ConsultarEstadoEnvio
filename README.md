@@ -1,6 +1,20 @@
 # ConsultarEstadoDte
 Consultar el Estado un Envío al SII
 
+INTRODUCCIÓN
+Consulta Estado de Upload DTE (CEUPDTE), como parte del proyecto Documentos
+Tributarios Electrónicos (DTE), entrega a las empresas un servicio (“QueryEstUp”), el
+cual permite consultar a través de WEB SERVICES, el estado de un archivo DTE
+enviado al SII, mediante Upload.
+Este documento está dirigido a quienes tengan la misión de utilizar y probar el servicio
+mencionado anteriormente (QueryEstUp).
+Para acceder a los servicios que ofrece el SII, se debe utilizar WSDL(Web Services
+Definition Language).
+WSDL es un lenguaje descriptor, basado en XML, que permite conocer en forma
+abstracta, la gramática de los componentes de un Web Service (ubicación, formato,
+tipos de datos, servicios, funciones, parámetros de entrada, salida, etc).
+
+
 Para consultar el estado de un envío de Documentos al SII se deben realizar 3 procesos.
 
 <b>Proceso 1:</b>
