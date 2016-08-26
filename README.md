@@ -10,6 +10,8 @@ Consultar el Estado un Envío al SII
 <br>http://www.sii.cl/factura_electronica/factura_mercado/estado_envio.pdf
 
 <B>INTEGRACIÓN CON SOFTWARE PROPIO</B>
+<br>Con la finalidad de simplificar el proceso requerido por el SII, el Webservice Factronica entrega un mecanismo más sencillo para realizar el proceso.
+
 <br>Para consultar el estado de un envío de Documentos al SII se deben realizar 3 procesos.
 
 <b>Proceso 1:</b>
