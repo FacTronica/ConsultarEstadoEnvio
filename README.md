@@ -12,7 +12,7 @@ Consultar el Estado un Envío al SII
 <B>INTEGRACIÓN CON SOFTWARE PROPIO</B>
 <br>Con la finalidad de simplificar el proceso requerido por el SII, el Webservice Factronica entrega un mecanismo más sencillo para realizar el proceso.
 <br>Para consultar el estado de un envío de Documentos al SII se deben realizar 3 procesos.
-<b>Proceso 1:</b>
+<br><b>Proceso 1:</b>
 <br>Crear un archivo de texto plano con la información a consultar.
 En este ejemplo guardaremos el archivo plano con el nombre datos_consulta_dte.txt
 
