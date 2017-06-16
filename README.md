@@ -18,15 +18,18 @@ En este ejemplo guardaremos el archivo plano con el nombre datos_consulta_dte.tx
 
 <b>Proceso 2:</b>
 <br>Enviar el Archivo Plano al WebService
-<br>Windows:
+<br>
+<br>En Windows:
 <br>c:\curl\curl.exe --form "input_consulta_dte=@c:\curl\datos_consulta_dte.txt" http://www.factronica.cl/factronica_webservice_servidor/consulta_dte.php
 <br>
-<br>Linux:
+<br>En Linux:
 <br>curl --form "input_consulta_dte=@datos_consulta_dte.txt" http://www.factronica.cl/factronica_webservice_servidor/consulta_dte.php
 <br>
 <b>Proceso 3:</b>
 <br>Recuperar la Respuesta del SII
-c:\curl\curl.exe -o c:\curl\ESTADOENVIODTE_133477322_TRACKID_1453694548.xml http://www.factronica.cl/factronica_webservice_servidor/buzon_consultadte/salida/ESTADOENVIODTE_133477322_TRACKID_1453694548.xml
-
- 
-
+<br>
+<br>En Windows:
+<br>c:\curl\curl.exe -o c:\curl\ESTADOENVIODTE_133477322_TRACKID_1453694548.xml http://www.factronica.cl/factronica_webservice_servidor/buzon_consultadte/salida/ESTADOENVIODTE_133477322_TRACKID_1453694548.xml
+<br>
+<br>En Linux:
+curl -o respuesta.xml http://www.factronica.cl/factronica_webservice_servidor/buzon_consultadte/salida/ESTADOENVIODTE_133477322_TRACKID_1453694548.xml
