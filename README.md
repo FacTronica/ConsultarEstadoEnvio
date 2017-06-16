@@ -30,4 +30,4 @@ En este ejemplo guardaremos el archivo plano con el nombre datos_consulta_dte.tx
 <br>c:\curl\curl.exe -o c:\curl\ESTADOENVIODTE_133477322_TRACKID_1453694548.xml http://www.factronica.cl/factronica_webservice_servidor/buzon_consultadte/salida/ESTADOENVIODTE_133477322_TRACKID_1453694548.xml
 <br>
 <br><b>En Linux:</b>
-<br>curl -o respuesta.xml http://www.factronica.cl/factronica_webservice_servidor/buzon_consultadte/salida/ESTADOENVIODTE_133477322_TRACKID_1453694548.xml
+<pre>curl -o respuesta.xml http://www.factronica.cl/factronica_webservice_servidor/buzon_consultadte/salida/ESTADOENVIODTE_76031589-3_TRACKID_1520109920.xml</pre>
